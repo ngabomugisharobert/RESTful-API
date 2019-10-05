@@ -1,17 +1,19 @@
 {
-  "name": "myapi",
-  "version": "1.0.0",
-  "description": "learning to build a RESTFul API",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Andela"
-  ],
-  "author": "kingrobert250",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "myapi",
+    "version": "1.0.0",
+    "description": "learning to build a RESTFul API",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start-watch": "nodemon src/index.js"
+    },
+    "keywords": [
+        "Andela"
+    ],
+    "author": "kingrobert250",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^1.19.3"
+    }
 }
